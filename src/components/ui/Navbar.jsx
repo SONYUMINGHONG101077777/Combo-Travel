@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { TbBrandBooking } from "react-icons/tb"; // ✅ បើកការប្រើ icon
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,6 +9,7 @@ const Navbar = () => {
     <nav className="flex justify-between items-center bg-gray-400 px-4 md:px-10 py-4 relative">
       {/* Logo */}
       <div className="flex items-center gap-2">
+        {/* ✅ ដាក់ Icon មុខអក្សរ */}
         <h1 className="font-poppins text-2xl md:text-3xl font-bold text-blue-600">
           CamboTravel
         </h1>
@@ -86,6 +88,9 @@ const Navbar = () => {
               alt="Profile"
             />
           </div>
+          <Link>
+              <TbBrandBooking className="text-blue-600 text-3xl" />
+          </Link>
         </div>
       )}
     </nav>
