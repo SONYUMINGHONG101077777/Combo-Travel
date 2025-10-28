@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "@/components/ui/Banner";
+import DialogDisplay from "@/components/ui/viewmore";
 
 const Mountion = () => {
   return (
@@ -49,9 +50,25 @@ const Mountion = () => {
   {[
     {
       id: 1,
-      img: "https://static.information.gov.kh/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeDJXQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--35cab006f3b18809f56d952e286fa48a54ee4ada/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MY21WemFYcGxTU0lNT1RBd2VEWXdNQVk2QmtWVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--70cbddbba2e46c7ca8ac0c1f8b8316d88752e16d/F9C1D785-FF57-4CC0-9735-1DA5CA0.jpeg",
-      title: "ឆ្នេតាបារាំង",
-      desc: "ឆ្នេរខ្សាច់សតាបារាំង ក្លាយជាគោលដៅទេសចរណ៍ថ្មីនៅព្រះសីហនុ ជាឆ្នេដែលមានខ្សាច់សស្អាតដែលដែលនៅជិតទីរួមខេត្ត នៅទីនោះមានខ្យល់ត្រជាក់និងមានកន្លែងសម្រាក់ អង្គុយជាកញ្ចុះនៅជាប់ឆ្នេខ្សាច់​និងមានលក់ម្ហូបអាហារគ្រឿងសមុទ្រ",
+      title: "ភ្នំត្បែង",
+      desc: "ភ្នំត្បែង គឺជាតំបន់ទេសចរណ៍ធម្មជាតិសម្បូរបែបមួយ ដែលស្ថិតនៅខេត្តរតនគិរី។ តំបន់នេះមានសភាពអាកាសធាតុត្រជាក់ត្រជុំជាប្រចាំឆ្នាំ ព័ទ្ធជុំវិញដោយព្រៃភ្នំបៃតង ស្រស់ស្អាត",
+      description1:"ភ្នំត្បែង គឺជាតំបន់ទេសចរណ៍ធម្មជាតិសម្បូរបែបមួយ ដែលស្ថិតនៅខេត្តរតនគិរី។ តំបន់នេះមានសភាពអាកាសធាតុត្រជាក់ត្រជុំជាប្រចាំឆ្នាំ ព័ទ្ធជុំវិញដោយព្រៃភ្នំបៃតង ស្រស់ស្អាត និងទឹកជ្រោះជាច្រើន។ ភ្ញៀវទេសចរអាចឡើងទស្សនាទេសភាពលើកំពូលភ្នំ ដែលអាចមើលឃើញទេសភាពទូលំទូលាយនៃព្រៃភ្នំ និងភូមិជនជាតិដើមភាគតិចនៅជុំវិញ។ ភ្នំត្បែងក៏ជាតំបន់សម្រាប់អ្នកចូលចិត្តធ្វើដំណើរផ្លូវឆ្ងាយ ឬធ្វើបាយភ្នំ (hiking) ផងដែរ។ក្រៅពីទេសភាពធម្មជាតិដ៏ស្រស់ស្អាត ភ្ញៀវអាចស្គាល់ជីវិតប្រពៃណីរបស់ជនជាតិដើមភាគតិចដូចជា ជនជាតិតំបូង ឬជនជាតិក្រេដែលរស់នៅជិតភ្នំ។ វាជាទីកន្លែងល្អសម្រាប់សម្រាកចិត្ត និងរីករាយជាមួយធម្មជាតិដ៏ស្ងប់ស្ងាត់។",
+      img: "https://static.information.gov.kh/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdyttQkE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--10ebfa8aeb6eb328f3bd52e3da50599548121bd1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MY21WemFYcGxTU0lNT1RBd2VEWXdNQVk2QmtWVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--70cbddbba2e46c7ca8ac0c1f8b8316d88752e16d/8CD28603-CA55-4674-AFBC-8FDA110.jpeg",
+      img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB-UMzVS1q4c6-0_m00bAY9d-wZ3IfNy8dN2rzJwCeVDtUqygTR27ksnb9fWyPNphk3LE&usqp=CAU",
+      img2:"https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png",
+      description2:"​ភ្នំត្បែង ស្ថិតនៅក្នុងស្រុកត្បែងមួយ ឬស្រុកអូរជុំ ខេត្តរតនគិរី (ភាគ ईសានខាងជើងនៃប្រទេសកម្ពុជា) ប្រហែល 20–25 គីឡូម៉ែត្រពីទីរួមខេត្តបណ្តាល។តំបន់នេះស្ថិតនៅជាប់ព្រំប្រទល់នឹងប្រទេសឡាវ និងវៀតណាម មានផ្លូវឡើងភ្នំស្អាត និងងាយស្រួលចូលដល់ដោយរថយន្ត ឬម៉ូតូ។",
+       subItems: [
+      {
+        type: "Resort",
+        img: "https://phkaslapartner.com/wp-content/uploads/2023/03/photo_2023-03-30_15-54-36.jpg",
+        text: "-ភ្នំត្បែង រីសត Phnom Tbeng Resort មានបន្ទប់ស្នាក់ល្អស្អាត ទូលាយ អនាម័យល្អ អាចទទួលភ្ញៀវស្នាក់នៅជាលក្ខណៈគ្រួសារ ឬក្រុមភ្ញៀវទេសចរណ៍។"
+      },
+      {
+        type: "Camping",
+        img: "https://ezstatic1.ezweb.online/thumb/IznrgxVfez3watJgK9dvP0LkQac=/560x350/ezweb_2157/soem-ratha/resort/rs-preahvihear/gh8.1.jpg",
+        text: "ជាប្រភេទតង់ អាកាសា ភ្នំត្បែង AKASA PHNOM TBENG ផ្ទះលំហែ និង ឧទ្យានជើងភ្នំ Home Stay & Cosy Parks.  ជាប់ Resort ផងដែរ"
+      }
+    ]
     },
     {
       id: 2,
@@ -61,22 +78,26 @@ const Mountion = () => {
     },
   ].map((item) => (
     <div
-      key={item.id}
-      className="bg-white shadow rounded-xl overflow-hidden border border-gray-200"
+        key={item.id}
+        className="bg-white shadow rounded-xl overflow-hidden border border-gray-200"
     >
-      <img
-        src={item.img}
-        alt={item.title}
-        className="w-full h-48 object-cover"
-      />
-      <div className="p-4">
-        <h3 className="font-semibold text-lg text-gray-700">{item.title}</h3>
+    <img
+    src={item.img}
+    alt={item.title}
+    className="w-full h-48 object-cover"
+    />
+     <div className="p-4">
+         <h3 className="font-semibold text-lg text-gray-700">{item.title}</h3>
         <p className="text-gray-500 text-sm">{item.desc}</p>
-        <button className="mt-3 bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">
-          MORE
-        </button>
-      </div>
-    </div>
+      {/* <button className="mt-3 bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">
+        MORE
+       </button> */}
+
+       {/* កែនេះ */}
+        <DialogDisplay data={item} />
+  </div>
+</div>
+
   ))}
 </div>
 
@@ -115,22 +136,26 @@ const Mountion = () => {
     },
   ].map((item) => (
     <div
-      key={item.id}
-      className="bg-white shadow rounded-xl overflow-hidden border border-gray-200"
-    >
-      <img
-        src={item.img}
-        alt={item.title}
-        className="w-full h-48 object-cover"
-      />
-      <div className="p-4">
-        <h3 className="font-semibold text-lg text-gray-700">{item.title}</h3>
-        <p className="text-gray-500 text-sm">{item.desc}</p>
-        <button className="mt-3 bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">
-          MORE
-        </button>
-      </div>
-    </div>
+  key={item.id}
+  className="bg-white shadow rounded-xl overflow-hidden border border-gray-200"
+>
+  <img
+    src={item.img}
+    alt={item.title}
+    className="w-full h-48 object-cover"
+  />
+  <div className="p-4">
+    <h3 className="font-semibold text-lg text-gray-700">{item.title}</h3>
+    <p className="text-gray-500 text-sm">{item.desc}</p>
+    {/* <button className="mt-3 bg-blue-500 text-white text-sm px-3 py-1 rounded hover:bg-blue-600">
+      MORE
+    </button> */}
+
+    {/* កែនេះ */}
+    <DialogDisplay data={item} />
+  </div>
+</div>
+
   ))}
 </div>
 
